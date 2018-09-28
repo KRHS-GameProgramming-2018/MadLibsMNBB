@@ -45,6 +45,24 @@ def getNumber(prompt, minNumber, maxNumber):
         
             
     return word
+    
+    
+    
+def getColor(prompt):
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        color1 = ["red", "blue", "green", "yellow", "purple", "orange", "black", "pink"]
+        goodInput = True
+        if (response == "white"):
+            print (THE END)
+            return showMenu()
+        elif character not in color1:
+                print "Invalid color"
+                goodInput = False
+                
+    return word
+                
 
 def isSwear(word):
     swearList = ["poop",
