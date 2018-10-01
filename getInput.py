@@ -54,11 +54,12 @@ def getColor(prompt):
         word = raw_input(prompt)
         color1 = ["red", "blue", "green", "yellow", "purple", "orange", "black", "pink"]
         goodInput = True
-        if (response == "white"):
-            print (THE END)
-            return showMenu()
-        elif character not in color1:
-                print "Invalid color"
+        for character in word:
+            if (color1 == "white"):
+                output += "THE END"
+                print showMenu()
+                break
+            # else "Invalid color"
                 goodInput = False
                 
     return word
