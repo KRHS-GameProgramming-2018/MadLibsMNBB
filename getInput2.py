@@ -2,9 +2,9 @@ def getMenuInput():
     goodInput = False
     while not goodInput:
         response = raw_input(" > ")
-        if (response == "1" 
-            or response == "One"):
-            response = "1"
+        if (response == "2" 
+            or response == "Two"):
+            response = "2"
             goodInput = True
         elif (response == "Q"
               or response == "Quit"
@@ -76,3 +76,21 @@ def isSwear(word):
         return True
     else:
         return False
+        
+        
+        
+        
+def getCountry(prompt):
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        country1 = ["Afghanistan", "Iraq", "Isreal", "Syria", "Iran", "Saudi Arabia", "Qatar", "Jordan", "Yemen", "United Arab Emirites", "Cypris", "Kuwait", "Bahrain"]   
+        goodInput = True
+        for character in word:
+            if character not in country1:
+                print "not good enough"
+                goodInput = False
+                break
+                
+                
+    return word
