@@ -52,18 +52,24 @@ def getColor(prompt):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
-        color1 = ["red", "blue", "green", "yellow", "purple", "orange", "black", "pink"]
-        goodInput = True
-        for character in word:
-            if (color1 == "white"):
-                output += "THE END"
-                print showMenu()
-                break
-            # else "Invalid color"
-                goodInput = False
-                
+        colors = ["red", "white", "blue", "green", "yellow", "purple", "orange", "black", "pink"]
+        if word in colors:
+            goodInput = True
+        else:
+            print "Invalid selection"
     return word
-                
+
+
+def getSnacc (prompt) :
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        if not isSwear(word):
+            goodInput = True
+        else:
+            print "who snacks on that?"
+        return word
+        
 
 def isSwear(word):
     swearList = ["poop",
