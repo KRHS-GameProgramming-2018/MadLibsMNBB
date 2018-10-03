@@ -84,13 +84,24 @@ def getCountry(prompt):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
-        country1 = ["Afghanistan", "Iraq", "Isreal", "Syria", "Iran", "Saudi Arabia", "Qatar", "Jordan", "Yemen", "United Arab Emirites", "Cypris", "Kuwait", "Bahrain"]   
+        countries = ["Afghanistan", 
+                     "Iraq", 
+                     "Isreal", 
+                     "Syria",
+                     "Iran",
+                     "Saudi Arabia",
+                     "Qatar", 
+                     "Jordan",
+                     "Yemen", 
+                     "United Arab Emirites", 
+                      "Cypris",
+                      "Kuwait", 
+                      "Bahrain"]   
         goodInput = True
-        for character in word:
-            if character not in country1:
-                print "not good enough"
-                goodInput = False
-                break
+        if word not in countries:
+            print "TRY AGAIN"
+            goodInput = False
+            
                 
                 
     return word
