@@ -3,15 +3,15 @@ from getInput import *
 def playMadlibs():
     quickEnd = False
     friend1 = getWord("Enter a Name: ")
-    numAnimals = getNumber("Enter a number: ", 2, 10)
+    # numAnimals = getNumber("Enter a number: ", 2, 10)
     # animals1 = getWord("Enter a pluaral animal name: ")
     color1 = getColor("Enter a color: ")
     if color1 == "white":
         quickEnd = True
     else:
         snacc1 = getSnacc ("Enter a snacc: ")
-        friend2 = getWord("Enter a Name: ")
-        animals1 = getWord("Enter a pluaral animal name: ")
+        # friend2 = getWord("Enter a Name: ")
+        animals1 = getWord("Enter an animal name: ")
     
     
     
@@ -24,7 +24,8 @@ def playMadlibs():
         output += "\nTHE END"
     else:
         output += "I quickly grabbed a " + snacc1
-        output += "This proved to be a poor choice when a rampant" + animals1
+        output += "This proved to be a poor choice when a rampant " + animals1
+        
     
     
     
