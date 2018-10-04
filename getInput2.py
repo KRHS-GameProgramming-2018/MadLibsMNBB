@@ -2,7 +2,11 @@ def getMenuInput():
     goodInput = False
     while not goodInput:
         response = raw_input(" > ")
-        if (response == "2" 
+        if (response == "1" 
+            or response == "One"):
+            response = "1"
+            goodInput = True
+        elif (response == "2" 
             or response == "Two"):
             response = "2"
             goodInput = True
