@@ -11,17 +11,19 @@ def playMadlibs():
     bodypart1 = getWord( "Enter an appropriate body part: ")
     object1 = getWord( "Enter a household object: ")
     noise1 = getWord( "Enter a common sound heard in New York City: ")
-    object2 = getWord( "Enter a piece of furnature: "
+    object2 = getWord( "Enter a musical instrament: " )
+    bodypart2 = getWord("Enter an appropriate body part: ")
     
     
-    
-    output = " "
+    output = ""
     output += "One day, I stumbled into " + country1 + "," 
     output += " Where I suddenly came face-to-face with a wild " + animal1 + "."
     output += " I stood frozen there, my eyes glued to the animals massive " + bodypart1 + "."
     output += "Thinking fast, I grabbed the nearest weapon, a " + object1 + "."
     output += "The " + animal1 + " charged, releasing a war cry that sounded like a " + noise1 +"."
-    output += " I perried the first blow with my " + object2 "."
+    output += " I perried the first blow with my trusty " + object2 
+    output += " and stabbeded the monster with its own " + bodypart2
+    output += "The moster reeled and I stood triumphantly, waving my shiny" + object1 + "high in the air."
     
     
     

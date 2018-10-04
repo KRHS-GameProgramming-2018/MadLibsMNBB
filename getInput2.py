@@ -99,7 +99,7 @@ def getCountry(prompt):
                       "Bahrain"]   
         goodInput = True
         if word not in countries:
-            print "TRY AGAIN"
+            print "That Ain't it chief"
             goodInput = False
             
                 
