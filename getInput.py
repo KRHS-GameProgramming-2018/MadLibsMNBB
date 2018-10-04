@@ -101,7 +101,7 @@ def isSwear(word):
         return False
         
         
-ef getMenuInput():
+def getMenuInput():
     goodInput = False
     while not goodInput:
         response = raw_input(" > ")
