@@ -70,6 +70,38 @@ def getSnacc (prompt) :
             print "who snacks on that?"
         return word
         
+        
+def warCry1 (prompt) :
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        if not isSwear(word) :
+            goodInput = True
+        else:
+            print "that's a weak war cry"
+        return word
+        
+def getFriend(prompt, name):
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        if not word == name:
+            goodInput = True
+        else:
+            print "Get more friends"
+    return word
+    
+    
+def getObject(prompt):
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        if not isSwear(word):
+            goodInput = True
+        else:
+            print "Try Again"
+    return word
+        
 
 def isSwear(word):
     swearList = ["poop",
