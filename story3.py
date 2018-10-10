@@ -10,10 +10,10 @@ def playMadlibs():
 
 
 
-Output = ""
-Output+= "Once upon a time, there was a" + adjective1 + "princess by the name of " +celebrity1
-Output+= celebrity1 + "lived high in a tower, protected night and day by her fathers massive" + pet1
-Output+= "One day, a brave prince attempted to rescue" + celebrity1 + "."
-Output+= "The prince charged the castle, wielding a" + food1 + "of unusual size"
-output+= "Out of nowhere, the princes's father, " + god1 + ", roundhouse kicked the charging prince."
-Output+= "
+    output = " "
+    output+= "Once upon a time, there was a" + adjective1 + "princess by the name of " +celebrity1
+    output+= celebrity1 + "lived high in a tower, protected night and day by her fathers massive" + pet1
+    output+= "One day, a brave prince attempted to rescue" + celebrity1 + "."
+    output+= "The prince charged the castle, wielding a" + food1 + "of unusual size"
+    output+= "Out of nowhere, the princes's father, " + god1 + ", roundhouse kicked the charging prince."
+

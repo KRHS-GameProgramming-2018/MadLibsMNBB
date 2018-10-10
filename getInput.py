@@ -142,7 +142,28 @@ def getObject(prompt):
         else:
             print "Try Again"
     return word
+
+
+def getGod(prompt) :
+    goodimput = false
+    while not goodimput:
+         word = raw_input(prompt)
+         gods = ["Zues", "Hades", "Dionysus", "Hermes", "Ares", "Hera", "Demeter", "Hestia", "Posiden", "Athena", "Apollo", "Artemis"]
+         if not isSwear(word):
+            goodInput = True
+         else:
+            print "Watch yo language"
         
+         if word in gods:
+            goodimput = true
+         else:
+            print "That ain't no god"
+            goodimput = false
+    return word
+        
+
+
+
 
 def isSwear(word):
     swearList = ["poop",
