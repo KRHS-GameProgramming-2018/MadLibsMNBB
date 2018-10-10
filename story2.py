@@ -1,4 +1,4 @@
-from getInput2 import *
+from getInput import *
 
 def playMadlibs():
     # friend1 = getWord("Enter a Name: ")

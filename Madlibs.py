@@ -1,6 +1,5 @@
 from screens import *
 from getInput import *
-from getInput2 import *
 import story1
 import story2
 
