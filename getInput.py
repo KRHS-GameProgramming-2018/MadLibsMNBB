@@ -61,10 +61,9 @@ def getColor(prompt):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
-        colors = ["red", "white", "blue", "green", "yellow", "purple", "orange", "black", "pink"]
+        colors = ["red", "white", "blue", "Blue", "green", "yellow", "purple", "orange", "black", "pink"]
         if not isSwear(word):
             goodInput = True
-            print "----> not a swear"
         else:
             print "Watch your language!"
             goodInput = False

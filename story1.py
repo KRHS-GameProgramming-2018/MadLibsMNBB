@@ -18,7 +18,7 @@ def playMadlibs():
     
     
     
-    output = ""
+    output = "   \n"
     output += "One day I ran over my friend, " + friend1
     output += ". Suddenly " + friend1
     output += " said that they saw a " + color1 + " light " 
@@ -28,9 +28,11 @@ def playMadlibs():
         output += "I quickly grabbed a " + snacc1
         output += ". This \nproved to be a poor choice when a rampant " + animals1
         output += " screeched and hollered a war cry fit for a warrior. "
-        output += friend2 + " Threw " + object1 + "at the monkey, "
+        output += friend2 + " Threw " + object1 + " at the monkey, "
         output += "letting loose a valiant '" + warCry1 + "'"
-        output += "/nThe monkey was pronounced dead on the scene"
+        output += "\nThe monkey was pronounced dead on the scene"
+        output += "   "
+ 
     
     
     
