@@ -9,3 +9,10 @@ def playMadlibs():
         print "There once was a pineapple under the sea!"
     elif color1 == "Blue":
         print "SMURF THE SMURF UP"
+    elif color1 == "purple":
+        raw_input== "wacky waving inflatable arm flailing tube man"
+        
+        
+        
+        
+output += color1
