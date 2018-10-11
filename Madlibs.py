@@ -7,6 +7,7 @@ import story3
 print showSplash()
 raw_input("Press Enter to Start")
 
+
 go = True
 while go:
     print showMenu()

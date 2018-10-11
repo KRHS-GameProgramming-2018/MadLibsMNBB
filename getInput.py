@@ -153,8 +153,8 @@ def getObject(prompt):
 
 
 def getGod(prompt) :
-    goodimput = false
-    while not goodimput:
+    goodInput = False
+    while not goodInput:
          word = raw_input(prompt)
          gods = ["Zues", "Hades", "Dionysus", "Hermes", "Ares", "Hera", "Demeter", "Hestia", "Posiden", "Athena", "Apollo", "Artemis"]
          if not isSwear(word):
@@ -163,10 +163,10 @@ def getGod(prompt) :
             print "Watch yo language"
         
          if word in gods:
-            goodimput = true
+            goodInput = True
          else:
             print "That ain't no god"
-            goodimput = false
+            goodInput = False
     return word
         
 
