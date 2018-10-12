@@ -5,33 +5,42 @@ def playMadlibs():
     magicColor = False
     magicWord = False
     color1 = getColor("Enter a color: ")
+    friend1 = getWord("Enter a name: ")
+    
+    
     if color1 == "white":
         quickEnd = True
     elif color1 == "blue":
-        print "There once was a pineapple under the sea!"
+        print "There once was a pineapple under the sea! "
     elif color1 == "Blue":
         print "SMURF THE SMURF UP"
     elif color1 == "purple":
         magicColor = True
     elif color1 == "black":
         magicWord = True
+    else:
+        pass
         
         
-        
+    if magicColor:
+        output = " \nThere can only be one"  
 
-    friend1 = getWord("Enter a name: ")    
+    elif magicWord:
+        output = friend1[::-1]
+    else:
         
         
         
-    output = ""
-    output += color1
-    output += friend1
+        output = ""
+        output += "What is your favorite color? " + color1 + " "
+        output += friend1 + " says " + color1
+        output += ""
+            
         
         
         
         
-        
-        return output
+    return output
 
 
 
