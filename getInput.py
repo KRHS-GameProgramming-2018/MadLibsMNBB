@@ -194,6 +194,20 @@ def isSwear(word):
                 "vagina,"
                 "whore,"
                 "balls,"
+                "pussy,"
+                "dong,"
+                "whore house,"
+                "erection,"
+                "sex,"
+                "fucker,"
+                "motherfucker,"
+                "mother fucker,"
+                "dick hole,"
+                "dickhole,"
+                "cock rocket,"
+                "cum,"
+                "donkey rocket,"
+                "dicks,"
                 
                  
                 ]
