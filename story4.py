@@ -4,6 +4,7 @@ def playMadlibs():
     quickEnd = False
     magicColor = False
     magicWord = False
+    floatingWord = False
     color1 = getColor("Enter a color: ")
     friend1 = getWord("Enter a name: ")
     
@@ -18,6 +19,8 @@ def playMadlibs():
         magicColor = True
     elif color1 == "black":
         magicWord = True
+    elif color1 == "yellow":
+        floatingWord = True
     else:
         pass
         
@@ -26,7 +29,10 @@ def playMadlibs():
         output = " \nThere can only be one"  
 
     elif magicWord:
-        output = friend1[::-1]
+        output = friend1[::-2]
+    
+    elif floatingWord:
+        import antigravity
     else:
         
         
