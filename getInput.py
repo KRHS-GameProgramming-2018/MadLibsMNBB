@@ -104,6 +104,8 @@ def getCountry(prompt):
         if word not in countries:
             print "That Ain't it chief"
             goodInput = False
+        if not isSwear(word):
+            goodInput = True
             
                 
                 
@@ -138,6 +140,9 @@ def getFriend(prompt, name):
             goodInput = True
         else:
             print "Get more friends"
+        if not isSwear(word):
+            goodInput = True
+            
     return word
     
     
@@ -208,11 +213,33 @@ def isSwear(word):
                 "cum,"
                 "donkey rocket,"
                 "dicks,"
+                "son of a bitch,"
+                "tits,"
+                "titties,"
+                "boobs,"
+                "cunt,"
+                "whorehouse,"
+                "niger,"
+                "fuck face,"
+                "dumbass,"
+                "smartass,"
+                "whore ass,"
+                "retard,"
+                "retarded,"
+                "dumb cunt,"
+                "bang,"
+                "gang bang,"
+                "gangbanging,"
+                "fucking,"
+                "forplay,"
+                "ass fucking,"
+                "butthole,"
                 
-                 
+                
+                
                 ]
     if word in swearList:
-        return True
-    else:
         return False
+    else:
+        return True
 
