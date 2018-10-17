@@ -29,7 +29,7 @@ def playMadlibs():
         output = " \nThere can only be one"  
 
     elif magicWord:
-        output = friend1[::-2]
+        output = friend1   [::-1]
     
     elif floatingWord:
         import antigravity
