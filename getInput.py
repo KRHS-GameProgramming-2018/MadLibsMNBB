@@ -184,62 +184,62 @@ def isSwear(word):
                 "crap", 
                 "schlong", 
                 "dinglemister",
-                "fuck,"
-                "shit,"
-                "ass,"
-                "asshole,"
-                "bitch,"
-                "bastard,"
-                "bitch tits,"
-                "slut,"
-                "dick,"
-                "cock,"
-                "penis,"
-                "scrotum,"
-                "vagina,"
-                "whore,"
-                "balls,"
-                "pussy,"
-                "dong,"
-                "whore house,"
-                "erection,"
-                "sex,"
-                "fucker,"
-                "motherfucker,"
-                "mother fucker,"
-                "dick hole,"
-                "dickhole,"
-                "cock rocket,"
-                "cum,"
-                "donkey rocket,"
-                "dicks,"
-                "son of a bitch,"
-                "tits,"
-                "titties,"
-                "boobs,"
-                "cunt,"
-                "whorehouse,"
-                "niger,"
-                "fuck face,"
-                "dumbass,"
-                "smartass,"
-                "whore ass,"
-                "retard,"
-                "retarded,"
-                "dumb cunt,"
-                "bang,"
-                "gang bang,"
-                "gangbanging,"
-                "fucking,"
-                "forplay,"
-                "ass fucking,"
-                "butthole,"
+                "fuck",
+                "shit",
+                "ass",
+                "asshole",
+                "bitch",
+                "bastard",
+                "bitch tits",
+                "slut",
+                "dick",
+                "cock",
+                "penis",
+                "scrotum",
+                "vagina",
+                "whore",
+                "balls",
+                "pussy",
+                "dong",
+                "whore house",
+                "erection",
+                "sex",
+                "fucker",
+                "motherfucker",
+                "mother fucker",
+                "dick hole",
+                "dickhole",
+                "cock rocket",
+                "cum",
+                "donkey rocket",
+                "dicks",
+                "son of a bitch",
+                "tits",
+                "titties",
+                "boobs",
+                "cunt",
+                "whorehouse",
+                "nigger",
+                "nigga",
+                "fuck face",
+                "dumbass",
+                "smartass",
+                "whore ass",
+                "retard",
+                "retarded",
+                "dumb cunt",
+                "bang",
+                "gang bang",
+                "gangbanging",
+                "fucking",
+                "forplay",
+                "ass fucking",
+                "butthole",
                 
                 
                 
                 ]
     if word in swearList:
-        return False
-    else:
         return True
+    return False
 
