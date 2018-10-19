@@ -101,15 +101,20 @@ def getCountry(prompt):
                       "Kuwait", 
                       "Bahrain"]   
         goodInput = True
-        if word not in countries:
+        if word in countries:
+            goodInput = True
+        else:
             print "That Ain't it chief"
             goodInput = False
         if not isSwear(word):
             goodInput = True
-            
-                
-                
+        else:
+            print "Watch your language!"
+            goodInput = False
     return word
+
+
+
 
 def getSnacc (prompt) :
     goodInput = False
@@ -161,7 +166,7 @@ def getGod(prompt) :
     goodInput = False
     while not goodInput:
          word = raw_input(prompt)
-         gods = ["Zues", "Hades", "Dionysus", "Hermes", "Ares", "Hera", "Demeter", "Hestia", "Posiden", "Athena", "Apollo", "Artemis"]
+         gods = ["Zeus", "Hades", "Dionysus", "Hermes", "Ares", "Hera", "Demeter", "Hestia", "Posiden", "Athena", "Apollo", "Artemis"]
          if not isSwear(word):
             goodInput = True
          else:

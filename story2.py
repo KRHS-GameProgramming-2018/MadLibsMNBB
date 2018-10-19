@@ -13,6 +13,7 @@ def playMadlibs():
     noise1 = getWord( "Enter a common sound heard in New York City: ")
     object2 = getWord( "Enter a musical instrament: " )
     bodypart2 = getWord("Enter an appropriate body part: ")
+    cry1 = getWord("Enter a victory noise: ")
     
     
     output = ""
@@ -23,7 +24,7 @@ def playMadlibs():
     output += "The " + animal1 + " charged, releasing a war cry that sounded like a " + noise1 +"."
     output += " I perried the first blow with my trusty " + object2 
     output += " and stabbeded the monster with its own " + bodypart2
-    output += " The moster reeled and I stood triumphantly, waving my shiny " + object1 + " high in the air."
+    output += " The moster vanished and I stood triumphantly, waving my shiny " + object1 + " high in the air and letting loose my signature victory cry, " + cry1
     output += "THE END"
     
     
