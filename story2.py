@@ -24,8 +24,8 @@ def playMadlibs():
     output += "The " + animal1 + " charged, releasing a war cry that sounded like a " + noise1 +"."
     output += " I perried the first blow with my trusty " + object2 
     output += " and stabbeded the monster with its own " + bodypart2
-    output += " The moster vanished and I stood triumphantly, waving my shiny " + object1 + " high in the air and letting loose my signature victory cry, " + cry1
-    output += "THE END"
+    output += " The moster vanished and I stood triumphantly, waving my shiny " + object1 + " high in the air and letting loose my signature victory cry, " + cry1 + "."
+    output += " THE END"
     
     
     
