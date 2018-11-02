@@ -1,6 +1,9 @@
 from getInput import *
 
 def playMadlibs():
+    
+    #I If you aren't using these; you can just delete them.
+    
     # friend1 = getWord("Enter a Name: ")
     # numAnimals = getNumber("Enter a number: ", 2, 10)
     # animals1 = getWord("Enter a pluaral animal name: ")
