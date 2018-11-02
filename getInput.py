@@ -68,7 +68,7 @@ def getNumber(prompt, minNumber, maxNumber):
 def getColor(prompt):
     goodInput = False
     while not goodInput:
-        word = raw_input(prompt)
+        word = raw_input(prompt)    # This one is capital
         colors = ["red", "white", "blue", "Blue", "green", "yellow", "purple", "orange", "black", "pink"]
         if not isSwear(word):
             goodInput = True
@@ -106,7 +106,7 @@ def getCountry(prompt):
         else:
             print "That Ain't it chief"
             goodInput = False
-        if not isSwear(word):
+        if not isSwear(word):  # This will pass all non-swears; over-riding the country
             goodInput = True
         else:
             print "Watch your language!"
@@ -123,7 +123,7 @@ def getSnacc (prompt) :
         if not isSwear(word):
             goodInput = True
         else:
-            print "who snacks on that?"
+            print "who snacks on that?" # this is just a get word with different error
         return word
         
         
@@ -141,12 +141,12 @@ def getFriend(prompt, name):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
-        if not word == name:
+        if not word == name: # this will only pass on word
             goodInput = True
         else:
-            print "Get more friends"
+            print "Get more friends"   
         if not isSwear(word):
-            goodInput = True
+            goodInput = True #this will pass all non-swears
             
     return word
     
