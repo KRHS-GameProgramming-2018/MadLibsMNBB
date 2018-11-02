@@ -1,3 +1,5 @@
+# 190/200 - PD; Very good. Come of your special getters have an issue where any word will work as long as you don't swear.
+
 from screens import *
 from getInput import *
 import story1
